@@ -1,0 +1,14 @@
+{
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "html"
+    ],
+    "inlineChat.showDiff": true,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "editor.defaultFormatter": "formulahendry.auto-close-tag"
+}
