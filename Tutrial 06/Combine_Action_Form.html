@@ -1,0 +1,233 @@
+<!-- FILEPATH: /d:/Web Development/Tutorial 06/index.html -->
+<!--
+This HTML file contains forms for applying for web development. It includes two forms, one with the action attribute set to "post" and another with the action attribute set to "get". Each form includes input fields for username, email, password, phone, address, and a textarea for description. The forms also include submit and reset buttons.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Development Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Web Development Application Forms Using Post Action</h1>
+    <form action="post">
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter your username"
+        required
+      />
+      <br />
+      <div>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
+      <br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+        required
+      />
+      <br />
+      <label for="phone">Phone:</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="Enter your phone number"
+        required
+      />
+      <br />
+      <label for="address">Address:</label>
+      <input
+        type="text"
+        id="address"
+        name="address"
+        placeholder="Enter your address"
+        required
+      />
+      <br />
+      <label for="description">Description:</label>
+      <textarea
+        id="description"
+        name="description"
+        placeholder="Enter a description"
+        required
+      ></textarea>
+      <br />
+      <div>
+        <label for="skills">Skills:</label>
+        <input type="checkbox" id="html" name="html" value="html" />
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="css" value="css" />
+        <label for="css">CSS</label>
+        <input
+          type="checkbox"
+          id="javascript"
+          name="javascript"
+          value="javascript"
+        />
+        <label for="javascript">JavaScript</label>
+        <input type="checkbox" id="php" name="php" value="php" />
+        <label for="php">PHP</label>
+        <input type="checkbox" id="mysql" name="mysql" value="mysql" />
+        <label for="mysql">MySQL</label>
+      </div>
+      <div>
+        <label for="browser">Favourite Browser:</label>
+        <select name="Favourite Browser" id="browser">
+          <option value="Chrome">Chrome</option>
+          <option value="Firefox">Firefox</option>
+          <option value="Safari">Safari</option>
+          <option value="Opera">Opera</option>
+          <option value="Internet Explorer">Internet Explorer</option>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          id="subscribe"
+          name="subscribe"
+          value="subscribe"
+        />
+    
+        <textarea
+          id="comments"
+          name="comments"
+          rows="4"
+          cols="50"
+          placeholder="Enter your comments here"
+        ></textarea>
+        <label for="subscribe">Subscribe to our newsletter</label>
+      </div>
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+
+    <h1>Forms to apply for Web Development Using Get Action</h1>
+    <form action="get">
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter your username"
+        required
+      />
+      <br />
+      <div>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
+      <br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+        required
+      />
+      <br />
+      <label for="phone">Phone:</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="Enter your phone number"
+        required
+      />
+      <br />
+      <label for="address">Address:</label>
+      <input
+        type="text"
+        id="address"
+        name="address"
+        placeholder="Enter your address"
+        required
+      />
+      <br />
+      <label for="description">Description:</label>
+      <textarea
+        id="description"
+        name="description"
+        placeholder="Enter a description"
+        required
+      ></textarea>
+      <br />
+      <div>
+        <label for="skills">Skills:</label>
+        <input type="checkbox" id="html" name="html" value="html" />
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="css" value="css" />
+        <label for="css">CSS</label>
+        <input
+          type="checkbox"
+          id="javascript"
+          name="javascript"
+          value="javascript"
+        />
+        <label for="javascript">JavaScript</label>
+        <input type="checkbox" id="php" name="php" value="php" />
+        <label for="php">PHP</label>
+        <input type="checkbox" id="mysql" name="mysql" value="mysql" />
+        <label for="mysql">MySQL</label>
+      </div>
+      <div>
+        <label for="browser">Favourite Browser:</label>
+        <select name="Favourite Browser" id="browser">
+          <option value="Chrome">Chrome</option>
+          <option value="Firefox">Firefox</option>
+          <option value="Safari">Safari</option>
+          <option value="Opera">Opera</option>
+          <option value="Internet Explorer">Internet Explorer</option>
+      </div>
+      <div>
+        <textarea
+          id="comments"
+          name="comments"
+          rows="4"
+          cols="50"
+          placeholder="Enter your comments here"
+        ></textarea>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          id="subscribe"
+          name="subscribe"
+          value="subscribe"
+        />
+        <label for="subscribe">Subscribe to our newsletter</label>
+      </div>
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
