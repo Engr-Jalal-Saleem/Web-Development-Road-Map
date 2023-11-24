@@ -1,0 +1,31 @@
+/* CSS: Styling for paragraph elements */
+p {
+    background-color: #97a99d;
+    /* Set background color */
+}
+
+/* CSS: Styling for anchor (a) elements */
+a {
+    background-color: #a0d5b2;
+    /* Set background color */
+    color: #e70c37;
+    /* Set text color */
+    text-decoration: none;
+    /* Remove default text decoration (underline) */
+}
+
+/* CSS: Styling for div elements */
+div {
+    background-color: #e70c37;
+    /* Set background color */
+    color: #a0d5b2;
+    /* Set text color */
+}
+
+/* CSS: Styling for span elements */
+span {
+    background-color: #ffe100;
+    /* Set background color */
+    color: #e70c37;
+    /* Set text color */
+}
