@@ -1,0 +1,23 @@
+/* CSS code */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #bc3939;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+    background-color: #1d211d;
+    box-shadow: 0 5px #b26666;
+    transform: translateY(4px);
+}

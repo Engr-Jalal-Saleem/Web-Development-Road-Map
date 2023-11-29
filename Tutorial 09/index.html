@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- Defines the document type and version of HTML -->
+<html lang="en">
+  <!-- The root element of an HTML page -->
+  <head>
+    <!-- Contains meta information about the document -->
+    <meta charset="UTF-8" />
+    <!-- Defines the character set for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Makes your website look good on all devices -->
+    <title>Adding Video & Audio</title>
+    <!-- Specifies a title for the document -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Defines the location of the CSS file -->
+  </head>
+  <body>
+    <!-- Contains the content that is visible to web users -->
+    <!-- Video element with attributes -->
+    <video src="Marketing.mp4" height="250" controls loop poster="poster.png">
+      My Video
+    </video>
+    <!-- Embeds a video file within the document -->
+    <button class="button">Click me</button>
+    <!-- Defines a clickable button -->
+    <!-- Audio element with attributes -->
+    <audio src="twinkle-twinkle-little-star-.mp3" controls>
+      twinkle-twinkle-little-star
+    </audio>
+    <!-- Embeds an audio file within the document -->
+
+    <!-- SVG-->
+    <svg width="100" height="100">
+      <!-- Defines an SVG section in the document -->
+      <circle
+        cx="50"
+        cy="50"
+        r="40"
+        stroke="green"
+        stroke-width="4"
+        fill="yellow"
+      />
+      <!-- Defines a circle in SVG -->
+    </svg>
+    <svg width="100" height="100">
+      <circle
+        cx="50"
+        cy="50"
+        r="40"
+        stroke="black"
+        stroke-width="20"
+        fill="red"
+      />
+      <!-- Defines another circle in SVG -->
+    </svg>
+
+    <!-- SVG image -->
+    <img src="img.svg" alt="My SVG Image" />
+    <!-- Embeds an image in the document -->
+
+    <!-- I Frames-->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/NzQJAcQP1f8?si=3m8d-3Eq_7jELSmf"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <!-- Embeds a YouTube video within the document -->
+  </body>
+</html>
