@@ -1,0 +1,32 @@
+/* FILEPATH: /d:/Web Development/Tutorial 10/style.css */
+
+/* Style for navigation menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(164, 61, 61), 54, 54)d7d;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the color of links on hover */
+nav ul li a:hover {
+    background-color: #c55353;
+}
+
+/* Add a color to the active/current link */
+nav ul li a.active {
+    background-color: #4CAF50;
+}
