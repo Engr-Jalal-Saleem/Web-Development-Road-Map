@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- This is the document type declaration. It is used to tell the web browser about the HTML version used in the document. -->
+
+<html lang="en">
+  <!-- The <html> tag is the root of an HTML document. The lang attribute defines the language of the document. -->
+
+  <head>
+    <!-- The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag. -->
+    <meta charset="UTF-8" />
+    <!-- This <meta> tag defines the character set used in the document. Here, it is set to UTF-8 which includes almost all characters from all languages. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- This <meta> tag is used for responsive web design. It sets the width of the page to follow the screen-width of the device which will vary depending on the device. The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser. -->
+    <title>Intro To CSS</title>
+    <!-- The <title> tag is used to specify the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab. -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- The <link> tag defines the relationship between the current document and an external resource. Here, it is used to link to an external CSS file. -->
+  </head>
+
+  <body>
+    <!-- The <body> tag defines the document's body. It contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc. -->
+
+    <h1>3 Ways To Add CSS</h1>
+    <!-- The <h1> to <h6> tags are used to define HTML headings, with <h1> being the largest and <h6> the smallest. -->
+
+    <h3>1. Inline CSS 2. Internal CSS 3. External CSS</h3>
+    <!-- This is another heading tag. -->
+
+    <h2>01.Inline CSS:</h2>
+    <!-- This is another heading tag. -->
+
+    <div style="color: red; font-size: 30px">
+      <!-- The <div> tag is a container that is used to group other HTML elements and apply CSS styles to them. Here, inline CSS is used to apply styles directly to this element. -->
+      My name is
+      <span style="color: blue; font-size: 50px">Engr. Jalal Saleem</span> and I
+      am <span style="color: green; font-size: 40px">19</span> years old.
+    </div>
+    <!-- The <span> tag is used to group inline-elements in a document. It provides no visual change by itself, but can be used with CSS to style parts of the text. -->
+
+    <h2>02.Internal CSS:</h2>
+    <!-- This is another heading tag. -->
+
+    <style>
+      /* <!-- The <style> tag is used to define style information for an HTML document. Inside the <style> element you specify how HTML elements should render in a browser. --> */
+      .red {
+        color: red;
+      }
+      /* <!-- This is a CSS class selector. It selects elements with a specific class attribute. Here, it selects HTML elements with class="red" and applies the style. --> */
+      .blue {
+        color: blue;
+      }
+      /* <!-- This is another CSS class selector. --> */
+      .green {
+        color: green;
+      }
+      /* <!-- This is another CSS class selector. --> */
+      .big {
+        font-size: 50px;
+      }
+      /* <!-- This is another CSS class selector. --> */
+      .medium {
+        font-size: 40px;
+      }
+      /* <!-- This is another CSS class selector. --> */
+      .small {
+        font-size: 30px;
+      }
+      /* <!-- This is another CSS class selector. --> */
+    </style>
+
+    <div class="red small">
+      <!-- The class attribute is used to specify one or more classnames for an element. The class attribute can be used on any HTML element. -->
+      My name is <span class="blue big">Engr. Jalal Saleem</span> and I am
+      <span class="green medium">19</span> years old.
+    </div>
+
+    <h2>03.External CSS:</h2>
+        This is another heading tag.
+    <div>
+      <!-- This is another <div> tag. -->
+      My name is <span class="name">Engr. Jalal Saleem</span> and I am
+      Programmer<span class="age">19</span> years old.
+    </div>
+    <!-- Here, the classes "name" and "age" would be defined in the external CSS file. -->
+  </body>
+  <!-- This is the closing tag for the <body> element. -->
+</html>
+<!-- This is the closing tag for the <html> element. -->
