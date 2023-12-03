@@ -1,0 +1,26 @@
+.box {
+    background-color: rgb(220, 190, 190);
+    /* Sets the background color of the box */
+    width: 300px;
+    /* Sets the width of the box */
+    padding: 25px;
+    /* Sets the padding around the content of the box */
+    border: 25px solid rgb(103, 103, 211);
+    /* Sets the border around the padding and content */
+    margin: 25px;
+    /* Sets the margin around the border, padding, and content */
+}
+
+.box1 {
+    background: #ff00ff;
+    /* Sets the background color of the second box */
+    padding: 90px;
+    /* Sets the padding around the content of the second box */
+    border: #ffff00 15px solid;
+    /* Sets the border around the padding and content of the second box */
+}
+
+.box2 {
+    background: #ffff00;
+    /* Sets the background color of the third box */
+}

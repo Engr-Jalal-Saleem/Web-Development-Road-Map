@@ -10,5 +10,8 @@
     ],
     "inlineChat.showDiff": true,
     "workbench.editor.enablePreviewFromQuickOpen": true,
-    "editor.defaultFormatter": "formulahendry.auto-close-tag"
+    "editor.defaultFormatter": "formulahendry.auto-close-tag",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
 }
