@@ -1,0 +1,80 @@
+/* The 'body' selector targets the entire body of the HTML document. */
+body {
+    /* The 'font-family' property specifies the font for an element. */
+    /* 'Arial, Helvetica, sans-serif' is a list of fonts, where if the first font is not available, the next font is used, and so on. */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* The 'font-size' property sets the size of the font. */
+    font-size: 20px;
+
+    /* The 'color' property sets the color of the text. */
+    /* '#2d2d2d' is a color defined using a hexadecimal value. */
+    color: #2d2d2d;
+}
+
+/* The 'div' selector targets all <div> elements. */
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+/* The 'p' selector targets all <p> elements. */
+p {
+    /* The 'font-style' property sets the style of the font. 'italic' makes the text italic. */
+    font-style: italic;
+
+    /* The 'font-weight' property sets the weight or thickness of the font. 'bolder' makes the text thicker. */
+    font-weight: bolder;
+
+    font-size: 30px;
+    color: #0d622b;
+
+    /* The 'line-height' property sets the space between lines. */
+    line-height: 3;
+
+    /* The 'letter-spacing' property sets the space between characters. */
+    letter-spacing: 3px;
+}
+
+/* The 'h1' selector targets all <h1> elements. */
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #d58686;
+}
+
+/* The 'h2' selector targets all <h2> elements. */
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+    /* The 'text-decoration' property adds decoration to the text. 'underline' adds a line below the text. */
+    text-decoration: underline;
+
+    /* The 'text-decoration-color' property sets the color of the text decoration. 'burlywood' is a predefined color name. */
+    text-decoration-color: burlywood;
+
+    /* The 'text-transform' property controls the capitalization of text. 'uppercase' converts all characters to uppercase. */
+    text-transform: uppercase;
+
+    /* The 'text-decoration-style' property sets the style of the text decoration. 'dashed' makes the line dashed. */
+    text-decoration-style: dashed;
+
+    /* The 'text-decoration-thickness' property sets the thickness of the text decoration. */
+    text-decoration-thickness: 7px;
+
+    /* The 'text-indent' property indents the first line of text. */
+    text-indent: 45px;
+
+    /* The 'text-shadow' property adds shadow to the text. */
+    text-shadow: 1px 1px 2px #d36969;
+
+    /* The 'text-align' property sets the horizontal alignment of the text. 'center' centers the text. */
+    text-align: center;
+
+    /* The 'text-overflow' property specifies how overflowed content that is not displayed should be signaled to the user. 'ellipsis' displays an ellipsis (...) to represent the clipped text. */
+    text-overflow: ellipsis;
+
+    /* The 'word-break' property specifies how to break words when the content overflows the boundaries of its container. 'break-all' breaks words at any character. */
+    word-break: break-all;
+}

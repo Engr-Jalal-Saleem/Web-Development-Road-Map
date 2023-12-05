@@ -6,7 +6,8 @@
         "markdown",
         "latex",
         "plaintext",
-        "html"
+        "html",
+        "css"
     ],
     "inlineChat.showDiff": true,
     "workbench.editor.enablePreviewFromQuickOpen": true,
