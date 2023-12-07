@@ -1,0 +1,55 @@
+h1 {
+    color: rgb(0, 64, 255);
+    /* Sets the color of all h1 elements */
+}
+
+.cyellow {
+    color: yellow;
+    /* Sets the color of elements with class "cyellow" */
+}
+
+.cred {
+    color: red;
+    /* Sets the color of elements with class "cred" */
+}
+
+.cpurple {
+    color: purple;
+    /* Sets the color of elements with class "cpurple" */
+}
+
+/* The Cascade Algorithm
+CSS stands for Cascading Stylesheets. The cascade is the algorithm for solving conflicts where multiple CSS rules apply to an HTML element. It's the reason that the text of the button styled with the above CSS will be purple.
+
+Understanding the cascade algorithm helps you understand how the browser resolves conflicts like this. The cascade algorithm has 4 distinct stages.
+
+Position and order of appearance: the order in which your CSS rules appear
+Specificity: an algorithm that determines which CSS selector has the strongest match
+Origin: the order in which CSS appears and where it comes from, whether that is a browser style, CSS from a browser extension, or your authored CSS
+Importance: some CSS rules are weighted more heavily than others, especially with the !important rule type
+Lets look into all these one by one*/
+
+/*Attribute Selector*/
+/* The CSS code `[data-x=a]` is using an attribute selector to target HTML elements that have a
+`data-x` attribute with a value of `a`. The CSS rule `color: red;` is then applied to those
+elements, setting their text color to red. */
+[data-x=a] {
+    color: red;
+    /* Sets the color of elements with a data-x attribute of "a" */
+}
+
+/*              The order of specificity is:
+
+Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector
+
+                Specificity Calculation
+To calculate specificity, assign a value to each part of the selector:
+
+Universal Selector: 0
+Element selectors and pseudo-elements: 1
+Class selectors, attribute selectors, and pseudo-classes: 10
+ID selectors: 100
+Inline styles: 1000
+Then, add up the values of all the parts in the selector.
+
+ */
