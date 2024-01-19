@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS Styles -->
+    <style>
+        /* Resetting margin and padding for all elements */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Setting base font size for better responsiveness using 'html' element */
+        html{
+            font-size: 16px;
+        }
+
+        /* Styling for the first box using 'vw' (viewport width) and 'vh' (viewport height) units */
+        .box{
+            box-sizing: border-box;
+            border: 2px solid blue;
+            width: 80vw; /* 80% of the viewport width */
+            margin: auto;
+            background-color: beige;
+            border-radius: 15px;
+            height: 35vh; /* 35% of the viewport height */
+        }
+
+        /* Styling for the main container using 'vw' and 'vh' units */
+        .container{
+            box-sizing: border-box;
+            border: 4px solid seagreen;
+            width: 80vw; /* 80% of the viewport width */
+            margin: 20px auto;
+            background-color: rgb(203, 219, 220);
+            border-radius: 12px;
+            /* Uncomment the line below if you want a specific height for the container */
+            /* height: 50vh; */
+            min-width: 50vh; /* Minimum width is 50% of the viewport height */
+            font-size: 16px;
+        }
+
+        /* Styling for the nested div inside the main container */
+        .container div{
+            font-size: 1.5em; /* Relative to the font-size of the parent element */
+            font-size: 2rem; /* Relative to the root element's font-size */
+            width: 85%;
+            background-color: cadetblue;
+        }
+
+        /* Styling for the nested div inside the nested div */
+        .container div > div{
+            font-size: 1.5em;
+            font-size: 2rem;
+            width: 35%;
+            background-color: blueviolet;
+        }
+
+        /* Styling for the third container using 'vmin' (viewport minimum) unit */
+        .mycont{
+            box-sizing: border-box;
+            border: 8px salmon;
+            background-color: burlywood;
+            font-size: 22px;
+            width: 80vw; /* 80% of the viewport width */
+            margin: auto;
+            /* Using 100vmin to ensure that the container is at least the size of the viewport */
+            width: 100vmin; /* 100% of the minimum viewport dimension (width or height) */
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- First box -->
+    <div class="box">
+        this is the box :<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum provident impedit quasi, labore quisquam aut laudantium, nam facilis, tempore similique molestias qui! Molestias a molestiae cupiditate dolorem nihil officia incidunt!
+    </div>
+
+    <!-- Main container with nested divs -->
+    <div class="container">
+        <div>
+            <!-- Content in the first nested div -->
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid hic at modi, sequi sunt quo corporis tempora maiores porro quae, nulla cupiditate repudiandae error cumque veniam a cum nesciunt numquam?
+            <div>
+                <!-- Content in the second nested div -->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis facilis modi totam eum sequi, recusandae alias ratione nesciunt, pariatur vero labore nemo quibusdam? Inventore nesciunt quisquam ea eveniet animi fugiat!
+            </div>
+        </div>
+    </div>
+
+    <!-- Third container -->
+    <div class="mycont">
+        I am another container:
+    </div>
+</body>
+</html>
