@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+</head>
+<style>
+    /* Resetting margin, padding, and box-sizing for all elements */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Styling for the boxes */
+    .box {
+        width: auto;
+        /* Automatically adjusts width based on content */
+        height: auto;
+        /* Automatically adjusts height based on content */
+        border-radius: 7px;
+        background-color: red;
+        display: inline-block;
+        /* Display as inline-block, allowing elements to flow horizontally */
+        margin: 10px;
+        padding: 10px;
+        color: white;
+        /* Text color */
+        font-family: Arial, sans-serif;
+        /* Font family */
+    }
+
+    /* Styling for the hidden content */
+    .box1 {
+        display: block;
+        /* Display as block, taking up full width */
+        /* display: none; */
+        /* Uncomment to hide the content completely */
+        /* visibility: hidden; */
+        /* Uncomment to hide the content while preserving space */
+    }
+</style>
+
+<body>
+    <!-- Boxes with different content -->
+    <div class="box">
+        This is a box.
+    </div>
+    <span class="box">
+        this is a span.
+    </span>
+    <div class="box">
+        this is another div.
+    </div>
+    <div class="box">
+        <!-- Nested hidden content -->
+        <p class="box1">
+            this is a paragraph.
+        </p>
+    </div>
+</body>
+
+</html>
